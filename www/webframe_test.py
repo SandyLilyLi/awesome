@@ -12,7 +12,7 @@ import logging; logging.basicConfig(level=logging.INFO)
 
 import orm
 from config.config import config
-
+# update
 #编写web框架测试
 async def init(loop):
     await orm.create_pool(loop, **config['db'])
